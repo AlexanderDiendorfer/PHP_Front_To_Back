@@ -79,7 +79,7 @@
             "filter" => FILTER_CALLBACK,
             "options" => "ucwords"
         ),
-        "age" => array(
+        "age" => array( 
             "filter" => FILTER_VALIDATE_INT,
             "options" => array(
                 "min_range" => 1,
